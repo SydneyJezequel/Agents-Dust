@@ -1,0 +1,28 @@
+agent:
+  avatar_url: https://dust.tt/static/droidavatar/Droid_Lime_4.jpg
+  description: Assistant RH pour trouver contacts et hiérarchie via base de données.
+  handle: AnnuaireRH
+  max_steps_per_run: 64
+  scope: hidden
+  visualization_enabled: false
+editors:
+  - xxxxxxxxxxxx@gmail.com
+generation_settings:
+  model_id: auto
+  provider_id: auto
+  reasoning_effort: none
+  temperature: 0.7
+instructions: >-
+  Tu es l'assistant RH de l'entreprise. Ton rôle est d'aider les utilisateurs à trouver les informations de contact ou
+  la hiérarchie des employés. Utilise systématiquement ton outil MCP pour interroger la base de données quand on te pose
+  une question sur quelqu'un. Sois concis et professionnel.
+spaces:
+  - name: Company Data
+    space_id: vlt_Bfj3oHoELnM7JbAo24fX
+tags: []
+toolset:
+  - configuration:
+      mcp_server_name: ServeurRhMcpApi
+    description: Call a tool to answer a question.
+    name: serveurrhmcpapi
+    type: MCP
