@@ -94,9 +94,9 @@ skills:
     sId: skl_IxvcBpl8mv3C6uyOLifZ
 spaces:
   - name: Sap and Dust Learning Pod
-    space_id: vlt_NuzxX7lORqF1VehPxsYG
+    space_id: vlt_xxxxxxxxxxxx
   - name: IA Documents
-    space_id: vlt_uE21YxWfH869Fy2WYTbY
+    space_id: vlt_xxxxxxxxxxxx
 tags:
   - kind: standard
     name: Apprentissage DUST
